@@ -1,1 +1,4 @@
-/*    /index.html   200
+# Don't redirect static assets
+/static/* /static/:splat 200
+# SPA fallback
+/* /index.html 200
