@@ -36,7 +36,6 @@ const HomePage = () => {
             preload="auto"
           >
             <source src="/videos/background-video.mp4" type="video/mp4" />
-            <source src="/videos/background-video.webm" type="video/webm" />
             Your browser does not support the video tag.
           </video>
           <div className="absolute inset-0 bg-blue-900 bg-opacity-50"></div>
@@ -264,7 +263,9 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="col-span-2">
-              <h3 className="text-2xl font-bold mb-4">CN Labs</h3>
+              <a href="/" className="inline-block mb-4">
+                <img src="/images/CN_Labs_Logo.png" alt="CN Labs" className="h-10 w-auto" />
+              </a>
               <p className="text-blue-200 mb-6 max-w-md">
                 Your trusted partner for comprehensive testing and certification services across cutting-edge technologies.
               </p>

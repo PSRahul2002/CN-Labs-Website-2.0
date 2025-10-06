@@ -9,7 +9,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-4">
-            <div className="text-2xl font-bold text-blue-900">CN Labs</div>
+            <a href="/" className="inline-block">
+              <img
+                src="/images/CN_Labs_Logo.png"
+                alt="CN Labs"
+                className="h-10 w-auto"
+              />
+            </a>
           </div>
           
           {/* Desktop Menu */}
