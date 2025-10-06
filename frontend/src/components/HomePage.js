@@ -203,6 +203,19 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Certifications Image (inserted after Certifications & Accreditations) */}
+      <section className="py-8 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="mb-6">
+            <img
+              src="/images/Gemini_Generated_Image_gcd2rbgcd2rbgcd2.png"
+              alt="Certifications and Accreditations"
+              className="mx-auto w-full md:w-1/2 h-auto rounded-lg shadow-md"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* News Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
